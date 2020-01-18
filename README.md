@@ -18,3 +18,7 @@ Basic test of ASM lib to do an hello world
 ## test-asm-compute
 
 Basic test of ASM lib to create a compute function with all needed instructions for the compiler, and print the result.
+
+## test-rust-jni
+
+Basic test to run Java code from Rust
