@@ -9,7 +9,12 @@ This was tested with the following:
 - Ubuntu 18.04
 - Oracle JDK 13.0.2
 - [org.ow2.asm](https://asm.ow2.io/) 7.3.1
+- Crate [jni](https://crates.io/crates/jni) 0.14.0
 
+## cl-jvm
+
+The main rust project.  
+Compiles LIR files to bytecode .class files
 
 ## test-asm-hello
 
