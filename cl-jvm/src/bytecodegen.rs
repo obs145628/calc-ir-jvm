@@ -78,13 +78,6 @@ impl CodeGen for ir::Ins {
     }
 }
 
-/*
-fn gen_ins_code(ins: &ir::Ins, cl: &JVMCompiler)
-{
-
-}
-*/
-
 pub fn gen_code(code: &Vec<ir::Ins>, cl: &JVMCompiler) {
     cl.set_class_name("App");
     cl.begin();
